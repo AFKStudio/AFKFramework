@@ -43,6 +43,7 @@
 		8F142DE1141BCB8C0036459E /* NSString+Enhanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F142DDF141BCB8C0036459E /* NSString+Enhanced.h */; };
 		8F142DE2141BCB8C0036459E /* NSString+Enhanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F142DE0141BCB8C0036459E /* NSString+Enhanced.m */; };
 		8F142DE4141BCBDA0036459E /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F142DE3141BCBDA0036459E /* Carbon.framework */; };
+		8F142DE7141BCCFE0036459E /* AFKFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F142DE6141BCCFE0036459E /* AFKFramework.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,7 @@
 		8F142DDF141BCB8C0036459E /* NSString+Enhanced.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Enhanced.h"; sourceTree = "<group>"; };
 		8F142DE0141BCB8C0036459E /* NSString+Enhanced.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Enhanced.m"; sourceTree = "<group>"; };
 		8F142DE3141BCBDA0036459E /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		8F142DE6141BCCFE0036459E /* AFKFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFKFramework.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 		8F142D6D141BC9CB0036459E /* AFKFramework */ = {
 			isa = PBXGroup;
 			children = (
+				8F142DE5141BCCEE0036459E /* Framework */,
 				8F142DA1141BCAC40036459E /* DDHotKey */,
 				8F142DA7141BCAE00036459E /* MTPopoverMenu */,
 				8F142DA9141BCAE30036459E /* NSColor */,
@@ -285,6 +288,14 @@
 			name = SRKey;
 			sourceTree = "<group>";
 		};
+		8F142DE5141BCCEE0036459E /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				8F142DE6141BCCFE0036459E /* AFKFramework.h */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -306,6 +317,7 @@
 				8F142DD9141BCB7A0036459E /* NSObject+Enhanced.h in Headers */,
 				8F142DDD141BCB840036459E /* NSURL+Enhanced.h in Headers */,
 				8F142DE1141BCB8C0036459E /* NSString+Enhanced.h in Headers */,
+				8F142DE7141BCCFE0036459E /* AFKFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

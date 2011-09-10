@@ -10,7 +10,7 @@
 
 #import <Carbon/Carbon.h>
 
-#import "NSObject(Enhanced).h"
+#import "NSObject+Enhanced.h"
 
 #import "MTPopoverMenuItem.h"
 

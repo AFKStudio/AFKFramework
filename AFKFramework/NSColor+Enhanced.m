@@ -8,7 +8,7 @@
 
 #import "NSColor+Enhanced.h"
 
-#import "NSObject(Enhanced).h"
+#import "NSObject+Enhanced.h"
 
 @implementation NSColor (Enhanced)
 
