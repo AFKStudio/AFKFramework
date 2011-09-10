@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F142D68141BC9CB0036459E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F142D67141BC9CB0036459E /* Cocoa.framework */; };
+		8F142D72141BC9CB0036459E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F142D70141BC9CB0036459E /* InfoPlist.strings */; };
+		8F142D76141BC9CB0036459E /* AFKFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F142D75141BC9CB0036459E /* AFKFramework.m */; };
+		8F142D7E141BC9CB0036459E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F142D7D141BC9CB0036459E /* SenTestingKit.framework */; };
+		8F142D7F141BC9CB0036459E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F142D67141BC9CB0036459E /* Cocoa.framework */; };
+		8F142D82141BC9CB0036459E /* AFKFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F142D64141BC9CB0036459E /* AFKFramework.framework */; };
+		8F142D88141BC9CB0036459E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F142D86141BC9CB0036459E /* InfoPlist.strings */; };
+		8F142D8B141BC9CB0036459E /* AFKFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F142D8A141BC9CB0036459E /* AFKFrameworkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F142D80141BC9CB0036459E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F142D5A141BC9CB0036459E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F142D63141BC9CB0036459E;
+			remoteInfo = AFKFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F142D64141BC9CB0036459E /* AFKFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFKFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F142D67141BC9CB0036459E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8F142D6A141BC9CB0036459E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8F142D6B141BC9CB0036459E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8F142D6C141BC9CB0036459E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8F142D6F141BC9CB0036459E /* AFKFramework-Info.plist */ = {isa = PBXFileReference; path = "AFKFramework-Info.plist"; sourceTree = "<group>"; };
+		8F142D71141BC9CB0036459E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F142D73141BC9CB0036459E /* AFKFramework-Prefix.pch */ = {isa = PBXFileReference; path = "AFKFramework-Prefix.pch"; sourceTree = "<group>"; };
+		8F142D74141BC9CB0036459E /* AFKFramework.h */ = {isa = PBXFileReference; path = AFKFramework.h; sourceTree = "<group>"; };
+		8F142D75141BC9CB0036459E /* AFKFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFKFramework.m; sourceTree = "<group>"; };
+		8F142D7C141BC9CB0036459E /* AFKFrameworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFKFrameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F142D7D141BC9CB0036459E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8F142D85141BC9CB0036459E /* AFKFrameworkTests-Info.plist */ = {isa = PBXFileReference; path = "AFKFrameworkTests-Info.plist"; sourceTree = "<group>"; };
+		8F142D87141BC9CB0036459E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F142D89141BC9CB0036459E /* AFKFrameworkTests.h */ = {isa = PBXFileReference; path = AFKFrameworkTests.h; sourceTree = "<group>"; };
+		8F142D8A141BC9CB0036459E /* AFKFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFKFrameworkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F142D60141BC9CB0036459E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F142D68141BC9CB0036459E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F142D78141BC9CB0036459E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F142D7E141BC9CB0036459E /* SenTestingKit.framework in Frameworks */,
+				8F142D7F141BC9CB0036459E /* Cocoa.framework in Frameworks */,
+				8F142D82141BC9CB0036459E /* AFKFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F142D58141BC9CB0036459E = {
+			isa = PBXGroup;
+			children = (
+				8F142D6D141BC9CB0036459E /* AFKFramework */,
+				8F142D83141BC9CB0036459E /* AFKFrameworkTests */,
+				8F142D66141BC9CB0036459E /* Frameworks */,
+				8F142D65141BC9CB0036459E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F142D65141BC9CB0036459E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F142D64141BC9CB0036459E /* AFKFramework.framework */,
+				8F142D7C141BC9CB0036459E /* AFKFrameworkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F142D66141BC9CB0036459E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F142D67141BC9CB0036459E /* Cocoa.framework */,
+				8F142D7D141BC9CB0036459E /* SenTestingKit.framework */,
+				8F142D69141BC9CB0036459E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F142D69141BC9CB0036459E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F142D6A141BC9CB0036459E /* AppKit.framework */,
+				8F142D6B141BC9CB0036459E /* CoreData.framework */,
+				8F142D6C141BC9CB0036459E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8F142D6D141BC9CB0036459E /* AFKFramework */ = {
+			isa = PBXGroup;
+			children = (
+				8F142D74141BC9CB0036459E /* AFKFramework.h */,
+				8F142D75141BC9CB0036459E /* AFKFramework.m */,
+				8F142D6E141BC9CB0036459E /* Supporting Files */,
+			);
+			path = AFKFramework;
+			sourceTree = "<group>";
+		};
+		8F142D6E141BC9CB0036459E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F142D6F141BC9CB0036459E /* AFKFramework-Info.plist */,
+				8F142D70141BC9CB0036459E /* InfoPlist.strings */,
+				8F142D73141BC9CB0036459E /* AFKFramework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F142D83141BC9CB0036459E /* AFKFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F142D89141BC9CB0036459E /* AFKFrameworkTests.h */,
+				8F142D8A141BC9CB0036459E /* AFKFrameworkTests.m */,
+				8F142D84141BC9CB0036459E /* Supporting Files */,
+			);
+			path = AFKFrameworkTests;
+			sourceTree = "<group>";
+		};
+		8F142D84141BC9CB0036459E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F142D85141BC9CB0036459E /* AFKFrameworkTests-Info.plist */,
+				8F142D86141BC9CB0036459E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8F142D61141BC9CB0036459E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8F142D63141BC9CB0036459E /* AFKFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F142D8E141BC9CB0036459E /* Build configuration list for PBXNativeTarget "AFKFramework" */;
+			buildPhases = (
+				8F142D5F141BC9CB0036459E /* Sources */,
+				8F142D60141BC9CB0036459E /* Frameworks */,
+				8F142D61141BC9CB0036459E /* Headers */,
+				8F142D62141BC9CB0036459E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFKFramework;
+			productName = AFKFramework;
+			productReference = 8F142D64141BC9CB0036459E /* AFKFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F142D7B141BC9CB0036459E /* AFKFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F142D91141BC9CB0036459E /* Build configuration list for PBXNativeTarget "AFKFrameworkTests" */;
+			buildPhases = (
+				8F142D77141BC9CB0036459E /* Sources */,
+				8F142D78141BC9CB0036459E /* Frameworks */,
+				8F142D79141BC9CB0036459E /* Resources */,
+				8F142D7A141BC9CB0036459E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F142D81141BC9CB0036459E /* PBXTargetDependency */,
+			);
+			name = AFKFrameworkTests;
+			productName = AFKFrameworkTests;
+			productReference = 8F142D7C141BC9CB0036459E /* AFKFrameworkTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F142D5A141BC9CB0036459E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8F142D5D141BC9CB0036459E /* Build configuration list for PBXProject "AFKFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8F142D58141BC9CB0036459E;
+			productRefGroup = 8F142D65141BC9CB0036459E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F142D63141BC9CB0036459E /* AFKFramework */,
+				8F142D7B141BC9CB0036459E /* AFKFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F142D62141BC9CB0036459E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F142D72141BC9CB0036459E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F142D79141BC9CB0036459E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F142D88141BC9CB0036459E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F142D7A141BC9CB0036459E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F142D5F141BC9CB0036459E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F142D76141BC9CB0036459E /* AFKFramework.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F142D77141BC9CB0036459E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F142D8B141BC9CB0036459E /* AFKFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F142D81141BC9CB0036459E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F142D63141BC9CB0036459E /* AFKFramework */;
+			targetProxy = 8F142D80141BC9CB0036459E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F142D70141BC9CB0036459E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F142D71141BC9CB0036459E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8F142D86141BC9CB0036459E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F142D87141BC9CB0036459E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F142D8C141BC9CB0036459E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8F142D8D141BC9CB0036459E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8F142D8F141BC9CB0036459E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFKFramework/AFKFramework-Prefix.pch";
+				INFOPLIST_FILE = "AFKFramework/AFKFramework-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		8F142D90141BC9CB0036459E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFKFramework/AFKFramework-Prefix.pch";
+				INFOPLIST_FILE = "AFKFramework/AFKFramework-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		8F142D92141BC9CB0036459E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFKFramework/AFKFramework-Prefix.pch";
+				INFOPLIST_FILE = "AFKFrameworkTests/AFKFrameworkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8F142D93141BC9CB0036459E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFKFramework/AFKFramework-Prefix.pch";
+				INFOPLIST_FILE = "AFKFrameworkTests/AFKFrameworkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F142D5D141BC9CB0036459E /* Build configuration list for PBXProject "AFKFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F142D8C141BC9CB0036459E /* Debug */,
+				8F142D8D141BC9CB0036459E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F142D8E141BC9CB0036459E /* Build configuration list for PBXNativeTarget "AFKFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F142D8F141BC9CB0036459E /* Debug */,
+				8F142D90141BC9CB0036459E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F142D91141BC9CB0036459E /* Build configuration list for PBXNativeTarget "AFKFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F142D92141BC9CB0036459E /* Debug */,
+				8F142D93141BC9CB0036459E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F142D5A141BC9CB0036459E /* Project object */;
+}
