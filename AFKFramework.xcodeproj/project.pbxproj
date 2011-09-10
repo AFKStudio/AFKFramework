@@ -554,6 +554,7 @@
 				GCC_PREFIX_HEADER = "AFKFramework/AFKFramework-Prefix.pch";
 				INFOPLIST_FILE = "AFKFramework/AFKFramework-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = /tmp/Omnivoer/build;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -568,6 +569,7 @@
 				GCC_PREFIX_HEADER = "AFKFramework/AFKFramework-Prefix.pch";
 				INFOPLIST_FILE = "AFKFramework/AFKFramework-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = /tmp/Omnivoer/build;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -615,6 +617,7 @@
 				8F142D90141BC9CB0036459E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F142D91141BC9CB0036459E /* Build configuration list for PBXNativeTarget "AFKFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -623,6 +626,7 @@
 				8F142D93141BC9CB0036459E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
