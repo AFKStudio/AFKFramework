@@ -36,8 +36,8 @@
 		8F142DD4141BCB710036459E /* MTPopoverMenuSeparator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F142DCC141BCB710036459E /* MTPopoverMenuSeparator.m */; };
 		8F142DD5141BCB710036459E /* MTPopoverMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F142DCD141BCB710036459E /* MTPopoverMenuView.h */; };
 		8F142DD6141BCB710036459E /* MTPopoverMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F142DCE141BCB710036459E /* MTPopoverMenuView.m */; };
-		8F142DD9141BCB7A0036459E /* NSObject(Enhanced).h in Headers */ = {isa = PBXBuildFile; fileRef = 8F142DD7141BCB7A0036459E /* NSObject(Enhanced).h */; };
-		8F142DDA141BCB7A0036459E /* NSObject(Enhanced).m in Sources */ = {isa = PBXBuildFile; fileRef = 8F142DD8141BCB7A0036459E /* NSObject(Enhanced).m */; };
+		8F142DD9141BCB7A0036459E /* NSObject+Enhanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F142DD7141BCB7A0036459E /* NSObject+Enhanced.h */; };
+		8F142DDA141BCB7A0036459E /* NSObject+Enhanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F142DD8141BCB7A0036459E /* NSObject+Enhanced.m */; };
 		8F142DDD141BCB840036459E /* NSURL+Enhanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F142DDB141BCB840036459E /* NSURL+Enhanced.h */; };
 		8F142DDE141BCB840036459E /* NSURL+Enhanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F142DDC141BCB840036459E /* NSURL+Enhanced.m */; };
 		8F142DE1141BCB8C0036459E /* NSString+Enhanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F142DDF141BCB8C0036459E /* NSString+Enhanced.h */; };
@@ -92,8 +92,8 @@
 		8F142DCC141BCB710036459E /* MTPopoverMenuSeparator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPopoverMenuSeparator.m; sourceTree = "<group>"; };
 		8F142DCD141BCB710036459E /* MTPopoverMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPopoverMenuView.h; sourceTree = "<group>"; };
 		8F142DCE141BCB710036459E /* MTPopoverMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPopoverMenuView.m; sourceTree = "<group>"; };
-		8F142DD7141BCB7A0036459E /* NSObject(Enhanced).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject(Enhanced).h"; sourceTree = "<group>"; };
-		8F142DD8141BCB7A0036459E /* NSObject(Enhanced).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject(Enhanced).m"; sourceTree = "<group>"; };
+		8F142DD7141BCB7A0036459E /* NSObject+Enhanced.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Enhanced.h"; sourceTree = "<group>"; };
+		8F142DD8141BCB7A0036459E /* NSObject+Enhanced.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Enhanced.m"; sourceTree = "<group>"; };
 		8F142DDB141BCB840036459E /* NSURL+Enhanced.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Enhanced.h"; sourceTree = "<group>"; };
 		8F142DDC141BCB840036459E /* NSURL+Enhanced.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Enhanced.m"; sourceTree = "<group>"; };
 		8F142DDF141BCB8C0036459E /* NSString+Enhanced.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Enhanced.h"; sourceTree = "<group>"; };
@@ -253,8 +253,8 @@
 		8F142DA8141BCAE10036459E /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
-				8F142DD7141BCB7A0036459E /* NSObject(Enhanced).h */,
-				8F142DD8141BCB7A0036459E /* NSObject(Enhanced).m */,
+				8F142DD7141BCB7A0036459E /* NSObject+Enhanced.h */,
+				8F142DD8141BCB7A0036459E /* NSObject+Enhanced.m */,
 			);
 			name = NSObject;
 			sourceTree = "<group>";
@@ -303,7 +303,7 @@
 				8F142DD1141BCB710036459E /* MTPopoverMenuItem.h in Headers */,
 				8F142DD3141BCB710036459E /* MTPopoverMenuSeparator.h in Headers */,
 				8F142DD5141BCB710036459E /* MTPopoverMenuView.h in Headers */,
-				8F142DD9141BCB7A0036459E /* NSObject(Enhanced).h in Headers */,
+				8F142DD9141BCB7A0036459E /* NSObject+Enhanced.h in Headers */,
 				8F142DDD141BCB840036459E /* NSURL+Enhanced.h in Headers */,
 				8F142DE1141BCB8C0036459E /* NSString+Enhanced.h in Headers */,
 			);
@@ -441,7 +441,7 @@
 				8F142DD2141BCB710036459E /* MTPopoverMenuItem.m in Sources */,
 				8F142DD4141BCB710036459E /* MTPopoverMenuSeparator.m in Sources */,
 				8F142DD6141BCB710036459E /* MTPopoverMenuView.m in Sources */,
-				8F142DDA141BCB7A0036459E /* NSObject(Enhanced).m in Sources */,
+				8F142DDA141BCB7A0036459E /* NSObject+Enhanced.m in Sources */,
 				8F142DDE141BCB840036459E /* NSURL+Enhanced.m in Sources */,
 				8F142DE2141BCB8C0036459E /* NSString+Enhanced.m in Sources */,
 			);

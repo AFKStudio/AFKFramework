@@ -6,7 +6,7 @@
 //  Copyright 2011 Marco Tabini. All rights reserved.
 //
 
-#import "NSObject(Enhanced).h"
+#import "NSObject+Enhanced.h"
 
 
 @interface MTBlockObserver : NSObject {
