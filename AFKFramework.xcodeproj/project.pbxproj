@@ -9,12 +9,40 @@
 /* Begin PBXBuildFile section */
 		8F142D68141BC9CB0036459E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F142D67141BC9CB0036459E /* Cocoa.framework */; };
 		8F142D72141BC9CB0036459E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F142D70141BC9CB0036459E /* InfoPlist.strings */; };
-		8F142D76141BC9CB0036459E /* AFKFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F142D75141BC9CB0036459E /* AFKFramework.m */; };
 		8F142D7E141BC9CB0036459E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F142D7D141BC9CB0036459E /* SenTestingKit.framework */; };
 		8F142D7F141BC9CB0036459E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F142D67141BC9CB0036459E /* Cocoa.framework */; };
 		8F142D82141BC9CB0036459E /* AFKFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F142D64141BC9CB0036459E /* AFKFramework.framework */; };
 		8F142D88141BC9CB0036459E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F142D86141BC9CB0036459E /* InfoPlist.strings */; };
 		8F142D8B141BC9CB0036459E /* AFKFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F142D8A141BC9CB0036459E /* AFKFrameworkTests.m */; };
+		8F142DAD141BCB500036459E /* DDHotKeyCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F142DAB141BCB500036459E /* DDHotKeyCenter.h */; };
+		8F142DAE141BCB500036459E /* DDHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F142DAC141BCB500036459E /* DDHotKeyCenter.m */; };
+		8F142DB9141BCB5A0036459E /* SRCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F142DAF141BCB5A0036459E /* SRCommon.h */; };
+		8F142DBA141BCB5A0036459E /* SRCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F142DB0141BCB5A0036459E /* SRCommon.m */; };
+		8F142DBB141BCB5A0036459E /* SRKeyCodeTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F142DB1141BCB5A0036459E /* SRKeyCodeTransformer.h */; };
+		8F142DBC141BCB5A0036459E /* SRKeyCodeTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F142DB2141BCB5A0036459E /* SRKeyCodeTransformer.m */; };
+		8F142DBD141BCB5A0036459E /* SRRecorderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F142DB3141BCB5A0036459E /* SRRecorderCell.h */; };
+		8F142DBE141BCB5A0036459E /* SRRecorderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F142DB4141BCB5A0036459E /* SRRecorderCell.m */; };
+		8F142DBF141BCB5A0036459E /* SRRecorderControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F142DB5141BCB5A0036459E /* SRRecorderControl.h */; };
+		8F142DC0141BCB5A0036459E /* SRRecorderControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F142DB6141BCB5A0036459E /* SRRecorderControl.m */; };
+		8F142DC1141BCB5A0036459E /* SRValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F142DB7141BCB5A0036459E /* SRValidator.h */; };
+		8F142DC2141BCB5A0036459E /* SRValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F142DB8141BCB5A0036459E /* SRValidator.m */; };
+		8F142DC5141BCB640036459E /* NSColor+Enhanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F142DC3141BCB640036459E /* NSColor+Enhanced.h */; };
+		8F142DC6141BCB640036459E /* NSColor+Enhanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F142DC4141BCB640036459E /* NSColor+Enhanced.m */; };
+		8F142DCF141BCB710036459E /* MTPopoverMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F142DC7141BCB710036459E /* MTPopoverMenu.h */; };
+		8F142DD0141BCB710036459E /* MTPopoverMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F142DC8141BCB710036459E /* MTPopoverMenu.m */; };
+		8F142DD1141BCB710036459E /* MTPopoverMenuItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F142DC9141BCB710036459E /* MTPopoverMenuItem.h */; };
+		8F142DD2141BCB710036459E /* MTPopoverMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F142DCA141BCB710036459E /* MTPopoverMenuItem.m */; };
+		8F142DD3141BCB710036459E /* MTPopoverMenuSeparator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F142DCB141BCB710036459E /* MTPopoverMenuSeparator.h */; };
+		8F142DD4141BCB710036459E /* MTPopoverMenuSeparator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F142DCC141BCB710036459E /* MTPopoverMenuSeparator.m */; };
+		8F142DD5141BCB710036459E /* MTPopoverMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F142DCD141BCB710036459E /* MTPopoverMenuView.h */; };
+		8F142DD6141BCB710036459E /* MTPopoverMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F142DCE141BCB710036459E /* MTPopoverMenuView.m */; };
+		8F142DD9141BCB7A0036459E /* NSObject(Enhanced).h in Headers */ = {isa = PBXBuildFile; fileRef = 8F142DD7141BCB7A0036459E /* NSObject(Enhanced).h */; };
+		8F142DDA141BCB7A0036459E /* NSObject(Enhanced).m in Sources */ = {isa = PBXBuildFile; fileRef = 8F142DD8141BCB7A0036459E /* NSObject(Enhanced).m */; };
+		8F142DDD141BCB840036459E /* NSURL+Enhanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F142DDB141BCB840036459E /* NSURL+Enhanced.h */; };
+		8F142DDE141BCB840036459E /* NSURL+Enhanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F142DDC141BCB840036459E /* NSURL+Enhanced.m */; };
+		8F142DE1141BCB8C0036459E /* NSString+Enhanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F142DDF141BCB8C0036459E /* NSString+Enhanced.h */; };
+		8F142DE2141BCB8C0036459E /* NSString+Enhanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F142DE0141BCB8C0036459E /* NSString+Enhanced.m */; };
+		8F142DE4141BCBDA0036459E /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F142DE3141BCBDA0036459E /* Carbon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,17 +61,44 @@
 		8F142D6A141BC9CB0036459E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		8F142D6B141BC9CB0036459E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		8F142D6C141BC9CB0036459E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		8F142D6F141BC9CB0036459E /* AFKFramework-Info.plist */ = {isa = PBXFileReference; path = "AFKFramework-Info.plist"; sourceTree = "<group>"; };
+		8F142D6F141BC9CB0036459E /* AFKFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFKFramework-Info.plist"; sourceTree = "<group>"; };
 		8F142D71141BC9CB0036459E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8F142D73141BC9CB0036459E /* AFKFramework-Prefix.pch */ = {isa = PBXFileReference; path = "AFKFramework-Prefix.pch"; sourceTree = "<group>"; };
-		8F142D74141BC9CB0036459E /* AFKFramework.h */ = {isa = PBXFileReference; path = AFKFramework.h; sourceTree = "<group>"; };
-		8F142D75141BC9CB0036459E /* AFKFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFKFramework.m; sourceTree = "<group>"; };
+		8F142D73141BC9CB0036459E /* AFKFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFKFramework-Prefix.pch"; sourceTree = "<group>"; };
 		8F142D7C141BC9CB0036459E /* AFKFrameworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFKFrameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F142D7D141BC9CB0036459E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		8F142D85141BC9CB0036459E /* AFKFrameworkTests-Info.plist */ = {isa = PBXFileReference; path = "AFKFrameworkTests-Info.plist"; sourceTree = "<group>"; };
+		8F142D85141BC9CB0036459E /* AFKFrameworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFKFrameworkTests-Info.plist"; sourceTree = "<group>"; };
 		8F142D87141BC9CB0036459E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8F142D89141BC9CB0036459E /* AFKFrameworkTests.h */ = {isa = PBXFileReference; path = AFKFrameworkTests.h; sourceTree = "<group>"; };
+		8F142D89141BC9CB0036459E /* AFKFrameworkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFKFrameworkTests.h; sourceTree = "<group>"; };
 		8F142D8A141BC9CB0036459E /* AFKFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFKFrameworkTests.m; sourceTree = "<group>"; };
+		8F142DAB141BCB500036459E /* DDHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKeyCenter.h; sourceTree = "<group>"; };
+		8F142DAC141BCB500036459E /* DDHotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyCenter.m; sourceTree = "<group>"; };
+		8F142DAF141BCB5A0036459E /* SRCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRCommon.h; sourceTree = "<group>"; };
+		8F142DB0141BCB5A0036459E /* SRCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRCommon.m; sourceTree = "<group>"; };
+		8F142DB1141BCB5A0036459E /* SRKeyCodeTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRKeyCodeTransformer.h; sourceTree = "<group>"; };
+		8F142DB2141BCB5A0036459E /* SRKeyCodeTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRKeyCodeTransformer.m; sourceTree = "<group>"; };
+		8F142DB3141BCB5A0036459E /* SRRecorderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRecorderCell.h; sourceTree = "<group>"; };
+		8F142DB4141BCB5A0036459E /* SRRecorderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRecorderCell.m; sourceTree = "<group>"; };
+		8F142DB5141BCB5A0036459E /* SRRecorderControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRecorderControl.h; sourceTree = "<group>"; };
+		8F142DB6141BCB5A0036459E /* SRRecorderControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRecorderControl.m; sourceTree = "<group>"; };
+		8F142DB7141BCB5A0036459E /* SRValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRValidator.h; sourceTree = "<group>"; };
+		8F142DB8141BCB5A0036459E /* SRValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRValidator.m; sourceTree = "<group>"; };
+		8F142DC3141BCB640036459E /* NSColor+Enhanced.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Enhanced.h"; sourceTree = "<group>"; };
+		8F142DC4141BCB640036459E /* NSColor+Enhanced.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Enhanced.m"; sourceTree = "<group>"; };
+		8F142DC7141BCB710036459E /* MTPopoverMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPopoverMenu.h; sourceTree = "<group>"; };
+		8F142DC8141BCB710036459E /* MTPopoverMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPopoverMenu.m; sourceTree = "<group>"; };
+		8F142DC9141BCB710036459E /* MTPopoverMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPopoverMenuItem.h; sourceTree = "<group>"; };
+		8F142DCA141BCB710036459E /* MTPopoverMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPopoverMenuItem.m; sourceTree = "<group>"; };
+		8F142DCB141BCB710036459E /* MTPopoverMenuSeparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPopoverMenuSeparator.h; sourceTree = "<group>"; };
+		8F142DCC141BCB710036459E /* MTPopoverMenuSeparator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPopoverMenuSeparator.m; sourceTree = "<group>"; };
+		8F142DCD141BCB710036459E /* MTPopoverMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPopoverMenuView.h; sourceTree = "<group>"; };
+		8F142DCE141BCB710036459E /* MTPopoverMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPopoverMenuView.m; sourceTree = "<group>"; };
+		8F142DD7141BCB7A0036459E /* NSObject(Enhanced).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject(Enhanced).h"; sourceTree = "<group>"; };
+		8F142DD8141BCB7A0036459E /* NSObject(Enhanced).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject(Enhanced).m"; sourceTree = "<group>"; };
+		8F142DDB141BCB840036459E /* NSURL+Enhanced.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Enhanced.h"; sourceTree = "<group>"; };
+		8F142DDC141BCB840036459E /* NSURL+Enhanced.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Enhanced.m"; sourceTree = "<group>"; };
+		8F142DDF141BCB8C0036459E /* NSString+Enhanced.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Enhanced.h"; sourceTree = "<group>"; };
+		8F142DE0141BCB8C0036459E /* NSString+Enhanced.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Enhanced.m"; sourceTree = "<group>"; };
+		8F142DE3141BCBDA0036459E /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F142DE4141BCBDA0036459E /* Carbon.framework in Frameworks */,
 				8F142D68141BC9CB0036459E /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,6 +146,7 @@
 		8F142D66141BC9CB0036459E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8F142DE3141BCBDA0036459E /* Carbon.framework */,
 				8F142D67141BC9CB0036459E /* Cocoa.framework */,
 				8F142D7D141BC9CB0036459E /* SenTestingKit.framework */,
 				8F142D69141BC9CB0036459E /* Other Frameworks */,
@@ -110,8 +167,13 @@
 		8F142D6D141BC9CB0036459E /* AFKFramework */ = {
 			isa = PBXGroup;
 			children = (
-				8F142D74141BC9CB0036459E /* AFKFramework.h */,
-				8F142D75141BC9CB0036459E /* AFKFramework.m */,
+				8F142DA1141BCAC40036459E /* DDHotKey */,
+				8F142DA7141BCAE00036459E /* MTPopoverMenu */,
+				8F142DA9141BCAE30036459E /* NSColor */,
+				8F142DA8141BCAE10036459E /* NSObject */,
+				8F142DA6141BCADF0036459E /* NSString */,
+				8F142DA5141BCADD0036459E /* NSURL */,
+				8F142DAA141BCAE50036459E /* SRKey */,
 				8F142D6E141BC9CB0036459E /* Supporting Files */,
 			);
 			path = AFKFramework;
@@ -146,6 +208,83 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8F142DA1141BCAC40036459E /* DDHotKey */ = {
+			isa = PBXGroup;
+			children = (
+				8F142DAB141BCB500036459E /* DDHotKeyCenter.h */,
+				8F142DAC141BCB500036459E /* DDHotKeyCenter.m */,
+			);
+			name = DDHotKey;
+			sourceTree = "<group>";
+		};
+		8F142DA5141BCADD0036459E /* NSURL */ = {
+			isa = PBXGroup;
+			children = (
+				8F142DDB141BCB840036459E /* NSURL+Enhanced.h */,
+				8F142DDC141BCB840036459E /* NSURL+Enhanced.m */,
+			);
+			name = NSURL;
+			sourceTree = "<group>";
+		};
+		8F142DA6141BCADF0036459E /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				8F142DDF141BCB8C0036459E /* NSString+Enhanced.h */,
+				8F142DE0141BCB8C0036459E /* NSString+Enhanced.m */,
+			);
+			name = NSString;
+			sourceTree = "<group>";
+		};
+		8F142DA7141BCAE00036459E /* MTPopoverMenu */ = {
+			isa = PBXGroup;
+			children = (
+				8F142DC7141BCB710036459E /* MTPopoverMenu.h */,
+				8F142DC8141BCB710036459E /* MTPopoverMenu.m */,
+				8F142DC9141BCB710036459E /* MTPopoverMenuItem.h */,
+				8F142DCA141BCB710036459E /* MTPopoverMenuItem.m */,
+				8F142DCB141BCB710036459E /* MTPopoverMenuSeparator.h */,
+				8F142DCC141BCB710036459E /* MTPopoverMenuSeparator.m */,
+				8F142DCD141BCB710036459E /* MTPopoverMenuView.h */,
+				8F142DCE141BCB710036459E /* MTPopoverMenuView.m */,
+			);
+			name = MTPopoverMenu;
+			sourceTree = "<group>";
+		};
+		8F142DA8141BCAE10036459E /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				8F142DD7141BCB7A0036459E /* NSObject(Enhanced).h */,
+				8F142DD8141BCB7A0036459E /* NSObject(Enhanced).m */,
+			);
+			name = NSObject;
+			sourceTree = "<group>";
+		};
+		8F142DA9141BCAE30036459E /* NSColor */ = {
+			isa = PBXGroup;
+			children = (
+				8F142DC3141BCB640036459E /* NSColor+Enhanced.h */,
+				8F142DC4141BCB640036459E /* NSColor+Enhanced.m */,
+			);
+			name = NSColor;
+			sourceTree = "<group>";
+		};
+		8F142DAA141BCAE50036459E /* SRKey */ = {
+			isa = PBXGroup;
+			children = (
+				8F142DAF141BCB5A0036459E /* SRCommon.h */,
+				8F142DB0141BCB5A0036459E /* SRCommon.m */,
+				8F142DB1141BCB5A0036459E /* SRKeyCodeTransformer.h */,
+				8F142DB2141BCB5A0036459E /* SRKeyCodeTransformer.m */,
+				8F142DB3141BCB5A0036459E /* SRRecorderCell.h */,
+				8F142DB4141BCB5A0036459E /* SRRecorderCell.m */,
+				8F142DB5141BCB5A0036459E /* SRRecorderControl.h */,
+				8F142DB6141BCB5A0036459E /* SRRecorderControl.m */,
+				8F142DB7141BCB5A0036459E /* SRValidator.h */,
+				8F142DB8141BCB5A0036459E /* SRValidator.m */,
+			);
+			name = SRKey;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -153,6 +292,20 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F142DAD141BCB500036459E /* DDHotKeyCenter.h in Headers */,
+				8F142DB9141BCB5A0036459E /* SRCommon.h in Headers */,
+				8F142DBB141BCB5A0036459E /* SRKeyCodeTransformer.h in Headers */,
+				8F142DBD141BCB5A0036459E /* SRRecorderCell.h in Headers */,
+				8F142DBF141BCB5A0036459E /* SRRecorderControl.h in Headers */,
+				8F142DC1141BCB5A0036459E /* SRValidator.h in Headers */,
+				8F142DC5141BCB640036459E /* NSColor+Enhanced.h in Headers */,
+				8F142DCF141BCB710036459E /* MTPopoverMenu.h in Headers */,
+				8F142DD1141BCB710036459E /* MTPopoverMenuItem.h in Headers */,
+				8F142DD3141BCB710036459E /* MTPopoverMenuSeparator.h in Headers */,
+				8F142DD5141BCB710036459E /* MTPopoverMenuView.h in Headers */,
+				8F142DD9141BCB7A0036459E /* NSObject(Enhanced).h in Headers */,
+				8F142DDD141BCB840036459E /* NSURL+Enhanced.h in Headers */,
+				8F142DE1141BCB8C0036459E /* NSString+Enhanced.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +316,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F142D8E141BC9CB0036459E /* Build configuration list for PBXNativeTarget "AFKFramework" */;
 			buildPhases = (
+				8F142D94141BC9FD0036459E /* ShellScript */,
 				8F142D5F141BC9CB0036459E /* Sources */,
 				8F142D60141BC9CB0036459E /* Frameworks */,
 				8F142D61141BC9CB0036459E /* Headers */,
@@ -203,6 +357,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "AFK Studio Partnership";
 			};
 			buildConfigurationList = 8F142D5D141BC9CB0036459E /* Build configuration list for PBXProject "AFKFramework" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -255,6 +410,19 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		8F142D94141BC9FD0036459E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildPlist=\"AFKFramework/AFKFramework-Info.plist\"\nCFBuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" $buildPlist)\nCFVersionNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" $buildPlist)\nCFBuildNumber=$(($CFBuildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set CFBundleVersion $CFBuildNumber\" $buildPlist\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -262,7 +430,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F142D76141BC9CB0036459E /* AFKFramework.m in Sources */,
+				8F142DAE141BCB500036459E /* DDHotKeyCenter.m in Sources */,
+				8F142DBA141BCB5A0036459E /* SRCommon.m in Sources */,
+				8F142DBC141BCB5A0036459E /* SRKeyCodeTransformer.m in Sources */,
+				8F142DBE141BCB5A0036459E /* SRRecorderCell.m in Sources */,
+				8F142DC0141BCB5A0036459E /* SRRecorderControl.m in Sources */,
+				8F142DC2141BCB5A0036459E /* SRValidator.m in Sources */,
+				8F142DC6141BCB640036459E /* NSColor+Enhanced.m in Sources */,
+				8F142DD0141BCB710036459E /* MTPopoverMenu.m in Sources */,
+				8F142DD2141BCB710036459E /* MTPopoverMenuItem.m in Sources */,
+				8F142DD4141BCB710036459E /* MTPopoverMenuSeparator.m in Sources */,
+				8F142DD6141BCB710036459E /* MTPopoverMenuView.m in Sources */,
+				8F142DDA141BCB7A0036459E /* NSObject(Enhanced).m in Sources */,
+				8F142DDE141BCB840036459E /* NSURL+Enhanced.m in Sources */,
+				8F142DE2141BCB8C0036459E /* NSString+Enhanced.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
